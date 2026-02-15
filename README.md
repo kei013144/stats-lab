@@ -22,6 +22,8 @@ make data
 
 This generates lightweight sample CSVs into `data/synthetic/`.
 
+Run `make viz-smoke` to generate smoke-test PNGs in `reports/smoke_test/` (or `04_reports/smoke_test/` when that directory exists).
+
 ## Data and Reproducibility Rules
 
 - `data/` is edit-prohibited.
