@@ -1,0 +1,10 @@
+stats-lab agent entrypoint
+==========================
+
+Before any work on this repository, read the root `AGENTS.md` first.
+
+Operational rules:
+- Always generate or refresh data through `scripts/` and `Makefile` targets.
+- Never hand-edit files under `data/`.
+- If data content must change, update generator code and regenerate.
+- Keep random seeds explicit and fixed for reproducibility.
